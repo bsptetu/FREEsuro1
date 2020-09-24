@@ -19,6 +19,6 @@ var $plugins =
 {"name":"PixiApngAndGif","status":true,"description":"","parameters":{}},
 {"name":"Trb_LoadingAnimation","status":true,"description":"ローディング画面をアニメーションさせるプラグイン","parameters":{"コマ数":"3","再生速度":"20","x":"","y":"200"}},
 {"name":"TMBitmapEx","status":true,"description":"角丸の矩形や星を描画する機能を追加します。\n各種ゲージの形状を角丸矩形に自動変更する機能もあります。","parameters":{"gaugeHeight":"18","gaugeReduction":"2","cornerRadius":"6","minGaugeRate":"1.5"}},
-{"name":"TMNamePop","status":true,"description":"イベントの頭上に文字列を表示する機能を追加します。","parameters":{"backOpacity":"250","fontSize":"22","fontOutlineWidth":"3","fontOutlineColor":"rgba(0, 0, 0, 0.5)","width":"160","useRoundRect":"1","roundRectRadius":"6"}},
+{"name":"TMNamePop","status":true,"description":"イベントの頭上に文字列を表示する機能を追加します。","parameters":{"backOpacity":"250","fontSize":"22","fontOutlineWidth":"3","fontOutlineColor":"rgba(240, 240, 240, 0.5)","width":"160","useRoundRect":"1","roundRectRadius":"6"}},
 {"name":"MKR_PlayerMoveForbid","status":true,"description":"(v1.0.5) プレイヤー移動禁止プラグイン","parameters":{"Default_Move_Flag":"71","Default_Menu_Flag":"false","Enter Flag":"true"}}
 ];
