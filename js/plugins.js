@@ -6,7 +6,7 @@ var $plugins =
 {"name":"111_InputForm","status":true,"description":"フォーム作って文字入力（修正版）","parameters":{}},
 {"name":"DTextPicture","status":true,"description":"動的文字列ピクチャ生成プラグイン","parameters":{}},
 {"name":"PictureCallCommon","status":true,"description":"ピクチャのボタン化プラグイン","parameters":{"透明色を考慮":"true","ピクチャ番号の変数番号":"0","ポインタX座標の変数番号":"0","ポインタY座標の変数番号":"0","タッチ操作抑制":"false","戦闘中常にコモン実行":"false","無効スイッチ":"0"}},
-{"name":"OnlineAvatar","status":true,"description":"Firebaseを使ってプレイヤーをオンライン同期します。","parameters":{"apiKey":"AIzaSyBC-eezil4uEw3PKO5ERlQvFUxI3TDBlEA","authDomain":"jsurotto3.firebaseapp.com","databaseURL":"https://jsurotto3.firebaseio.com","avatarEvent":"64","syncSwitchStart":"101","syncSwitchEnd":"180","syncVariableStart":"500","syncVariableEnd":"3000"}},
+{"name":"OnlineAvatar","status":true,"description":"Firebaseを使ってプレイヤーをオンライン同期します。","parameters":{"apiKey":"AIzaSyC8ZfGjYV5qx5AZZxpUo-5aa9Omoo1O7s8","authDomain":"freesuro1.firebaseapp.com","databaseURL":"https://freesuro1.firebaseio.com","avatarEvent":"64","syncSwitchStart":"101","syncSwitchEnd":"180","syncVariableStart":"500","syncVariableEnd":"3002"}},
 {"name":"Torigoya_SaveCommand","status":true,"description":"プラグインコマンドからセーブを実行できるようにします。","parameters":{}},
 {"name":"HyperLink","status":true,"description":"ゲーム中に外部ページへのリンクを貼ります。","parameters":{"description":"画面外タッチで閉じる"}},
 {"name":"TitleNewGameOnly","status":true,"description":"ニューゲームオンリープラグイン","parameters":{"startString":"タッチでスタート","font":"","fileExistAction":"0","soundEffect":"","adjustY":"-450"}},
