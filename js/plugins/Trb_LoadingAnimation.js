@@ -65,7 +65,10 @@
             context.globalAlpha = alpha;
             context.drawImage(this._loadingImage, sx, sy, sw, sh, dx, dy, sw, sh);
             context.restore();
-        }
+            document.getElementById("gameFrame").style.zIndex = 9998;
+        }else{
+        document.getElementById("gameFrame").style.zIndex = -2;
+    }
     };
 
 })();
