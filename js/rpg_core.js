@@ -2080,7 +2080,7 @@ Graphics._setupProgress = function(){
     this._progressElement.width = 600;
     this._progressElement.height = 110;
     this._progressElement.style.visibility = 'hidden';
-   this._progressElement.style.Top = 250;
+   this._progressElement.style.Top = 200;
 
     this._barElement = document.createElement('div');
     this._barElement.id = 'loading-bar';
@@ -2673,7 +2673,7 @@ Graphics._modifyExistingElements = function() {
     var elements = document.getElementsByTagName('*');
     for (var i = 0; i < elements.length; i++) {
         if (elements[i].style.zIndex > 0) {
-            elements[i].style.zIndex = 0;
+            //elements[i].style.zIndex = 0;
         }
     }
 };
