@@ -2673,7 +2673,7 @@ Graphics._modifyExistingElements = function() {
     var elements = document.getElementsByTagName('*');
     for (var i = 0; i < elements.length; i++) {
         if (elements[i].style.zIndex > 0) {
-            //elements[i].style.zIndex = 0;
+            elements[i].style.zIndex = 0;
         }
     }
 };
