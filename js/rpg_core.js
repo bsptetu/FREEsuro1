@@ -2155,10 +2155,6 @@ Graphics.endLoading = function() {
     this._clearUpperCanvas();
     this._upperCanvas.style.opacity = 0;
     this._hideProgress();
-document.getElementById("gameFrame").src=" ";
-document.getElementById("gameFrame").style.visibility = 'hidden';
-document.getElementById("gameFrame").style.display = 'none';
-document.getElementById("gameFrame").style.zIndex = -2;
 };
 
 /**
