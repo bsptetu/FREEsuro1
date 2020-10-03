@@ -242,7 +242,7 @@
             var sx = this._getLoadingImageX();
             var sy = this._getLoadingImageY();
             context.drawImage(this._loadingImage, sx, sy, dw, dh, dx, dy, dw, dh);
-document.getElementById("gameFrame").style.zIndex = -2;
+document.getElementById("gameFrame").style.zIndex = 9999;
             context.restore();
         }
     };
