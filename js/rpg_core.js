@@ -2130,6 +2130,10 @@ Graphics._updateProgressCount = function(countLoaded, countLoading){
 
 Graphics._updateProgress = function(){
     this._centerElement(this._progressElement);
+document.getElementById("gameFrame").src=" ";
+document.getElementById("gameFrame").style.visibility = 'hidden';
+document.getElementById("gameFrame").style.display = 'none';
+document.getElementById("gameFrame").style.zIndex = -2;
 };
 
 /**

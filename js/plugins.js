@@ -22,5 +22,5 @@ var $plugins =
 {"name":"TMNamePop","status":true,"description":"イベントの頭上に文字列を表示する機能を追加します。","parameters":{"backOpacity":"250","fontSize":"22","fontOutlineWidth":"3","fontOutlineColor":"rgba(240, 240, 240, 0.5)","width":"160","useRoundRect":"1","roundRectRadius":"6"}},
 {"name":"MKR_PlayerMoveForbid","status":true,"description":"(v1.0.5) プレイヤー移動禁止プラグイン","parameters":{"Default_Move_Flag":"71","Default_Menu_Flag":"false","Enter Flag":"true"}},
 {"name":"TMAutoNewGame","status":true,"description":"起動時に自動ではじめからゲームを開始します。\nWeb用ミニゲームなど、タイトルが不要な場合に使えます。","parameters":{"autoNewGame":"1","allwaysOnTop":"0","autoDevTool":"0"}},
-{"name":"LoadingExtend","status":true,"description":"ロード中画像拡張プラグイン","parameters":{"イメージ列数":"1","イメージ行数":"3","表示タイプ":"2","アニメーション間隔":"30","表示位置X座標":"","表示位置Y座標":"","待機フレーム数":"1","点滅なし":"OFF"}}
+{"name":"LoadingExtend","status":true,"description":"ロード中画像拡張プラグイン","parameters":{"イメージ列数":"1","イメージ行数":"3","表示タイプ":"2","アニメーション間隔":"30","表示位置X座標":"","表示位置Y座標":"-300","待機フレーム数":"1","点滅なし":"OFF"}}
 ];
